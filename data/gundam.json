@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Unicorn Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/unicorn.png"
+    },
+    {
+        "name": "Banshee Gundam",
+        "price": "$30000",
+        "description": "Tested",
+        "link": "../static/img/banshee.png"
+    },
+    {
+        "name": "RX-78 Gundam",
+        "price": "$45000",
+        "description": "Tested",
+        "link": "../static/img/rx78.png"
+    },
+    {
+        "name": "Exia Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/exia.png"
+    },
+    {
+        "name": "Zaku II",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/zaku.png"
+    },
+    {
+        "name": "Zeta Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/zeta.png"
+    },
+    {
+        "name": "Sazabi",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/sazabi.png"
+    },
+    {
+        "name": "Strike Freedom Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/strike_freedom.png"
+    },
+    {
+        "name": "Strike Versus Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/strike_versus.png"
+    }
+]
