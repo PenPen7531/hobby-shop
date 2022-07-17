@@ -15,37 +15,38 @@
 </head>
     <body>
         <div class="page">
-            <div class="nav">
-                <a href="/" class="nav-elem"><div class="elem"><h1>One-stop shop <img src="../static/img/gundam-logo.png" class="logo"/></h1></div></a>
-                <a href="popular" class="nav-elem"><div class="elem"><h2>Most Popular</h2></div></a>
-                <a href="cat" class="nav-elem"><div class="elem"><h2>Categories</h2></div></a>
-                <a href="shop" class="nav-elem"><div class="elem"><h2>Shopping Cart <img src="../static/img/cart.png" class="cart"></h2></div></a>
-                <form class="elem" method="POST">
-                    <label id="search" for="search">Search</label>
-                    <input id="item-search" type="text" name="search">
-                    <button class="search">Search</button>
-                </form>
-            </div>
-            <div class="grid">
-                {% for toy in collections.collection %} 
-                <div class="element">
-                    <h3 class="name">{{ toy.name }}</h3>
-                    <img src="{{ toy.link }}" class="item" />
-                    <ul>
-                        <li><b>Price: </b>{{ toy.price }}</li>
-                        <li><b>Description: </b>{{ toy.description }}</li>
-                    </ul>
-                    <div class="buttons">
-                        <a class="order" href="./order/{{ toy.name }}">
-                            <div class="order-nav">Order Now</div>
-                        </a>
-                        <a class="order" href="./view/{{ toy.name }}">
-                            <div class="order-nav">View Product</div>
-                        </a>
-                    </div>
+        <div class="nav">
+            <a href="/" class="nav-elem"><div class="elem"><h1>One-stop shop <img src="../static/img/gundam-logo.png" class="logo"/></h1></div></a>
+            <a href="popular" class="nav-elem"><div class="elem"><h2>Most Popular</h2></div></a>
+            <a href="cat" class="nav-elem"><div class="elem"><h2>Categories</h2></div></a>
+            <a href="shop" class="nav-elem"><div class="elem"><h2>Shopping Cart <img src="../static/img/cart.png" class="cart"></h2></div></a>
+            <form class="elem" method="POST">
+                <label id="search" for="search">Search</label>
+                <input id="item-search" type="text" name="search">
+                <button class="search">Search</button>
+            </form>
+        </div>
+        <div class="grid">
+            {% for toy in collections.collection %} 
+            
+            <div class="element" onclick="location.href='./view/{{ toy.name }}';">
+                <h3 class="name">{{ toy.name }}</h3>
+                <img src="{{ toy.link }}" class="item" />
+                <ul>
+                    <li><b>Price: </b>{{ toy.price }}</li>
+                    <li><b>Description: </b>{{ toy.description }}</li>
+                </ul>
+                <div class="buttons">
+                    <a class="order" href="./order/{{ toy.name }}">
+                        <div class="order-nav">Order Now</div>
+                    </a>
+                    <a class="order" href="./view/{{ toy.name }}">
+                        <div class="order-nav">View Product</div>
+                    </a>
                 </div>
-                {% endfor %}
             </div>
+            {% endfor %}
+        </div>
         </div>
     </body>
 </html>
