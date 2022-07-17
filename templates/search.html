@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Search</title>
     <!-- <link rel="stylesheet" href="../CSS/styles.css"> -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <link rel="stylesheet" href="../static/fontawesome/css/fontawesome.css">
@@ -27,7 +27,7 @@
                 </form>
             </div>
             <div class="grid">
-                {% for toy in collections.collection %} 
+                {% for toy in items %} 
                 <div class="element">
                     <h3 class="name">{{ toy.name }}</h3>
                     <img src="{{ toy.link }}" class="item" />
@@ -36,10 +36,10 @@
                         <li><b>Description: </b>{{ toy.description }}</li>
                     </ul>
                     <div class="buttons">
-                        <a class="order" href="./order/{{ toy.name }}">
+                        <a class="order" href="../order/{{ toy.name }}">
                             <div class="order-nav">Order Now</div>
                         </a>
-                        <a class="order" href="./view/{{ toy.name }}">
+                        <a class="order" href="../view/{{ toy.name }}">
                             <div class="order-nav">View Product</div>
                         </a>
                     </div>

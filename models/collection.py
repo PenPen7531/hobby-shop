@@ -25,3 +25,10 @@ class Collection:
             if item_name == item.name:
                 return item
         return None
+
+    def find_items_by_id(self, search_name):
+        items=[]
+        for item in self.collection:
+            if search_name.lower() in item.name.lower():
+                items.append(item)
+        return items

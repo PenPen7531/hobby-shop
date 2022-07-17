@@ -1,17 +1,10 @@
-body, html{
-    height: 100%;
+body{
+
     font-family: 'Courier New', Courier, monospace;
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
-    
 }
-
-.page{
-    height: 100%;
-    background-color: #343d46;
-}
-
 
 .nav{
     display: flex;
@@ -52,12 +45,9 @@ body, html{
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-top:0%;
-    background-color: #343d46;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    
+    background-color: #343d46
 }
 
 .element{
@@ -116,8 +106,7 @@ li{
 }
 
 .item{
-    height: 300px;
-    margin: 0%;
+    margin: 5%;
     width: 90%;
     object-fit: contain;
     background-image: url("../img/space_background.jpg");
@@ -125,6 +114,7 @@ li{
     padding: 5px;
     border-color: black;
     border-style: solid;
+
 }
 
 .cart{
@@ -142,4 +132,3 @@ li{
     padding-left: 5%;
     padding-right: 5%;
 }
-
