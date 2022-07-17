@@ -27,15 +27,20 @@
         <div class="grid">
             {% for toy in collections.collection %} 
             <div class="element">
-                <h3>{{ toy.name }}</h3>
+                <h3 class="name">{{ toy.name }}</h3>
                 <img src="{{ toy.link }}" class="item" />
                 <ul>
                     <li><b>Price: </b>{{ toy.price }}</li>
                     <li><b>Description: </b>{{ toy.description }}</li>
                 </ul>
-                <a class="order" href="./order/{{ toy.name }}">
-                    <div class="order-nav">Order Now</div>
-                </a>
+                <div class="buttons">
+                    <a class="order" href="./order/{{ toy.name }}">
+                        <div class="order-nav">Order Now</div>
+                    </a>
+                    <a class="order" href="./view/{{ toy.name }}">
+                        <div class="order-nav">View Product</div>
+                    </a>
+                </div>
             </div>
             {% endfor %}
         </div>

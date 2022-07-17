@@ -33,7 +33,7 @@
         "name": "Zaku II",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/zaku.png"
+        "link": "../static/img/zaku-II.png"
     },
     {
         "name": "Zeta Gundam",
@@ -112,5 +112,41 @@
         "price": "$25000",
         "description": "Tested",
         "link": "../static/img/barbatos-gundam.png"
+    },
+    {
+        "name": "Alex Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/alex-gundam.png"
+    },
+    {
+        "name": "F91 Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/f91.png"
+    },
+    {
+        "name": "Full Armor Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/full-armor.png"
+    },
+    {
+        "name": "Zaku",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/zaku.png"
+    },
+    {
+        "name": "GN Sniper",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/gn-sniper.png"
+    },
+    {
+        "name": "Astray Red",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/astray-red.png"
     }
 ]

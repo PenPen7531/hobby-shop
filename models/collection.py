@@ -18,3 +18,10 @@ class Collection:
                 ]
         except:
             self.employees = []
+
+
+    def find_item_by_id(self, item_name):
+        for item in self.collection:
+            if item_name == item.name:
+                return item
+        return None
