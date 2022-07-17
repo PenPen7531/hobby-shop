@@ -24,6 +24,12 @@
         "link": "../static/img/exia.png"
     },
     {
+        "name": "00 7-Sword Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/7-sword-gundam.png"
+    },
+    {
         "name": "Zaku II",
         "price": "$25000",
         "description": "Tested",
@@ -42,6 +48,12 @@
         "link": "../static/img/sazabi.png"
     },
     {
+        "name": "Strike Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/strike-gundam.png"
+    },
+    {
         "name": "Strike Freedom Gundam",
         "price": "$25000",
         "description": "Tested",
@@ -52,5 +64,53 @@
         "price": "$25000",
         "description": "Tested",
         "link": "../static/img/strike_versus.png"
+    },
+    {
+        "name": "Zaku II Comet",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/zaku_comet.png"
+    },
+    {
+        "name": "Mark II Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/mk2.png"
+    },
+    {
+        "name": "ZZ Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/zzgundam.png"
+    },
+    {
+        "name": "Victory Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/victory-gundam.png"
+    },
+    {
+        "name": "Victory II Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/victory-gundam2.png"
+    },
+    {
+        "name": "God Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/god-gundam.png"
+    },
+    {
+        "name": "Wing Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/wing-gundam.png"
+    },
+    {
+        "name": "Barbatos Gundam",
+        "price": "$25000",
+        "description": "Tested",
+        "link": "../static/img/barbatos-gundam.png"
     }
 ]

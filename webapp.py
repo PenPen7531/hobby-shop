@@ -12,5 +12,9 @@ def login():
 
 
 
+@app.route("/order/<product_id>")
+def order(product_id):
+    print(product_id)
+    return "Tested"
 if __name__ == "__main__":
     app.run(debug=True)
