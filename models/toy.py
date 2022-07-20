@@ -1,5 +1,8 @@
+from unittest.util import strclass
+
+
 class Toy:
-    def __init__(self, item_name, item_price, item_description, item_img_lnk):
+    def __init__(self, item_name, item_price, item_description, item_img_lnk, item_review):
         if type(item_name) != str:
             raise TypeError
         self.name=item_name
@@ -12,6 +15,9 @@ class Toy:
         if type(item_description) != str:
             raise TypeError
         self.description = item_description
+        if type(item_review) != str:
+            raise TypeError
+        self.review = item_review
 
     def to_dict(self):
         return {
@@ -19,6 +25,7 @@ class Toy:
             "price": self.price,
             "description": self.description,
             "link": self.link,
+            "review": self.review
         }
         
 

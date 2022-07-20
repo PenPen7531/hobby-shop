@@ -17,10 +17,17 @@ def login():
         search=request.form.get("search")
         return redirect(f"/search/{search}")
 
-@app.route("/view/<product_id>")
+@app.route("/view/<product_id>", methods=["GET", "POST"])
 def view(product_id):
-    item=GUNDAM.find_item_by_id(product_id)
-    return render_template("view.html", item=item), 200
+    if request.method == "GET":
+        item=GUNDAM.find_item_by_id(product_id)
+        return render_template("view.html", item=item), 200
+
+    if request.method == "POST":
+        search=request.form.get("search")
+        return redirect(f"/search/{search}")
+
+
 
     
 @app.route("/search/<search>", methods=["GET","POST"])

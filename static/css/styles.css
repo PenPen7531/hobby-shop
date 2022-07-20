@@ -27,6 +27,7 @@ body, html{
 .elem{
     margin: 0%;
     padding: 0%;
+    padding-right: 0px;
 }
 
 .nav-elem:hover{
@@ -152,4 +153,9 @@ li{
     padding: 0%;
     margin: 0%;
     text-decoration: none;
+}
+
+.price{
+    margin: 5px;
+    font-size: 1.25em;
 }

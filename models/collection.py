@@ -13,7 +13,8 @@ class Collection:
                         toy["name"], 
                         toy["price"],
                         toy["description"],
-                        toy["link"]
+                        toy["link"],
+                        toy["review"]
                     ) for toy in json.load(file)
                 ]
         except:

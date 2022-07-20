@@ -25,15 +25,16 @@
                     <input id="item-search" type="text" name="search">
                     <button class="search">Search</button>
                 </form>
+                <a href="/"><button class="search">Clear</button></a>
             </div>
             <div class="grid">
                 {% for toy in items %} 
-                <div class="element">
+                <div class="element" onclick="location.href='../view/{{ toy.name }}';">
                     <h3 class="name">{{ toy.name }}</h3>
                     <img src="{{ toy.link }}" class="item" />
                     <ul>
-                        <li><b>Price: </b>{{ toy.price }}</li>
-                        <li><b>Description: </b>{{ toy.description }}</li>
+                        <li class="price"><b>Price: </b>{{ toy.price }}</li>
+                        <li class="price"><b>Rating: </b>{{ toy.review }}</li>
                     </ul>
                     <div class="buttons">
                         <a class="order" href="../order/{{ toy.name }}">

@@ -2,151 +2,176 @@
     {
         "name": "Unicorn Gundam",
         "price": "$25000",
-        "description": "Tested",
-        "link": "../static/img/unicorn.png"
+        "description": "Tested q1231231231231  123123 1231231 123 13 ",
+        "link": "../static/img/unicorn.png",
+        "review": "5/10"
     },
     {
         "name": "Banshee Gundam",
         "price": "$30000",
         "description": "Tested",
-        "link": "../static/img/banshee.png"
+        "link": "../static/img/banshee.png",
+        "review": "5/10"
     },
     {
         "name": "RX-78 Gundam",
         "price": "$45000",
         "description": "Tested",
-        "link": "../static/img/rx78.png"
+        "link": "../static/img/rx78.png",
+        "review": "5/10"
     },
     {
         "name": "Exia Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/exia.png"
+        "link": "../static/img/exia.png",
+        "review": "5/10"
     },
     {
         "name": "00 7-Sword Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/7-sword-gundam.png"
+        "link": "../static/img/7-sword-gundam.png",
+        "review": "5/10"
     },
     {
         "name": "Zaku II",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/zaku-II.png"
+        "link": "../static/img/zaku-II.png",
+        "review": "5/10"
     },
     {
         "name": "Zeta Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/zeta.png"
+        "link": "../static/img/zeta.png",
+        "review": "5/10"
     },
     {
         "name": "Sazabi",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/sazabi.png"
+        "link": "../static/img/sazabi.png",
+        "review": "5/10"
     },
     {
         "name": "Strike Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/strike-gundam.png"
+        "link": "../static/img/strike-gundam.png",
+        "review": "5/10"
     },
     {
         "name": "Strike Freedom Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/strike_freedom.png"
+        "link": "../static/img/strike_freedom.png",
+        "review": "5/10"
     },
     {
         "name": "Strike Versus Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/strike_versus.png"
+        "link": "../static/img/strike_versus.png",
+        "review": "5/10"
     },
     {
         "name": "Zaku II Comet",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/zaku_comet.png"
+        "link": "../static/img/zaku_comet.png",
+        "review": "5/10"
     },
     {
         "name": "Mark II Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/mk2.png"
+        "link": "../static/img/mk2.png",
+        "review": "5/10"
     },
     {
         "name": "ZZ Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/zzgundam.png"
+        "link": "../static/img/zzgundam.png",
+        "review": "5/10"
     },
     {
         "name": "Victory Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/victory-gundam.png"
+        "link": "../static/img/victory-gundam.png",
+        "review": "5/10"
     },
     {
         "name": "Victory II Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/victory-gundam2.png"
+        "link": "../static/img/victory-gundam2.png",
+        "review": "5/10"
     },
     {
         "name": "God Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/god-gundam.png"
+        "link": "../static/img/god-gundam.png",
+        "review": "5/10"
     },
     {
         "name": "Wing Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/wing-gundam.png"
+        "link": "../static/img/wing-gundam.png",
+        "review": "5/10"
     },
     {
         "name": "Barbatos Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/barbatos-gundam.png"
+        "link": "../static/img/barbatos-gundam.png",
+        "review": "5/10"
     },
     {
         "name": "Alex Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/alex-gundam.png"
+        "link": "../static/img/alex-gundam.png",
+        "review": "5/10"
     },
     {
         "name": "F91 Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/f91.png"
+        "link": "../static/img/f91.png",
+        "review": "5/10"
     },
     {
         "name": "Full Armor Gundam",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/full-armor.png"
+        "link": "../static/img/full-armor.png",
+        "review": "5/10"
     },
     {
         "name": "Zaku",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/zaku.png"
+        "link": "../static/img/zaku.png",
+        "review": "5/10"
     },
     {
         "name": "GN Sniper",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/gn-sniper.png"
+        "link": "../static/img/gn-sniper.png",
+        "review": "5/10"
     },
     {
         "name": "Astray Red",
         "price": "$25000",
         "description": "Tested",
-        "link": "../static/img/astray-red.png"
+        "link": "../static/img/astray-red.png",
+        "review": "5/10"
     }
 ]
